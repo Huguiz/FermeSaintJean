@@ -6,7 +6,7 @@ import NavBar from './components/navbar';
 import Footer from './components/footer';
 
 // pages
-import Welcome from './page/Welcome';
+import Welcome from './page/Weelcome';
 import Products from './page/Products';
 import Contact from './page/Contact';
 
