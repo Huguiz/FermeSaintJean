@@ -1,6 +1,5 @@
 // assets
-import FieldImage from "../assets/5.jpg";
-import Logo from "../assets/logo.svg";
+import FieldImage from "../assets/5.png";
 import Tractor from "../assets/7.jpg";
 import Product from "../assets/9.png";
 import Nature from "../assets/10.png";
@@ -17,9 +16,8 @@ import carousel8 from "../assets/15.jpg";
 export default function Welcome() {
     return (
         <section>
-            <article className="relative">
+            <article className="relative flex-1">
                 <img src={FieldImage} alt="Field image" className="w-full shadow-inner relative -z-10" />
-                <img src={Logo} alt="Logo" className="absolute w-4/5 lg:w-3/5 top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2" />
                 <div className="shade absolute open bottom-0 w-full" />
             </article>
             <article className="bg-slate-100 p-5 md:px-16 lg:px-20 xl:px-32 flex flex-col justify-between items-center sm:flex-row gap-x-10 lg:gap-x-32 gap-y-5">

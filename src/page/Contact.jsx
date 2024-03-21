@@ -5,7 +5,7 @@ export default function Contact() {
             <p>Vous pouvez venir directement à la ferme</p>
             <div className="text-center">
                 <h2>Téléphone</h2>
-                <p>Marty : 06 06 06 60 06 06</p>
+                <p>Marty : 06 06 06 60 06</p>
                 <p>Laurent : 07 07 07 07 07</p>
             </div>
             <div>

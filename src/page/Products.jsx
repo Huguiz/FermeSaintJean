@@ -6,7 +6,7 @@ import productsList from "../assets/products.json";
 
 export default function Products() {
     return (
-        <section style={{ backgroundImage: `url(${backgroundImage})` }} className="text-center">
+        <section style={{ backgroundImage: `url(${backgroundImage})` }} className="text-center flex-1 bg-fixed bg-no-repeat bg-cover">
             <h1 className="py-5 title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl">Nous vous proposons...</h1>
             {
                 productsList.map((element, index) => {
