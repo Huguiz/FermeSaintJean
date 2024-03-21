@@ -55,17 +55,17 @@ export default function Welcome() {
                     <img className="rounded-lg" src={Nature} alt="Tractor image" />
                 </div>
             </article>
-            <article className="h-96 relative">
+            <article className="relative">
                 <div className="shade close h-8" ></div>
-                <div className=" flex flex-row gap-20 overflow-x-auto h-[300px] pb-8 px-10">
-                    <img className="shadow-xl" src={carousel1} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel2} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel3} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel4} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel5} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel6} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel7} alt="Carousel image" />
-                    <img className="shadow-xl" src={carousel8} alt="Carousel image" />
+                <div className=" flex flex-row gap-20 overflow-x-auto h-[225px] pb-12 px-7">
+                    <img className="shadow-xl max-w-fit" src={carousel1} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel2} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel3} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel4} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel5} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel6} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel7} alt="Carousel image" />
+                    <img className="shadow-xl max-w-fit" src={carousel8} alt="Carousel image" />
                 </div>
             </article>
         </section>

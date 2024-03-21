@@ -1,0 +1,32 @@
+[
+    {
+        "title":"Abricot",
+        "image":"/src/assets/1.jpg",
+        "description":"Abricot de Valdoule 3 variétés disponible",
+        "hint":"Disponibilité août à septembre"
+    },
+    {
+        "title":"Prune",
+        "image":"/src/assets/1.jpg",
+        "description":"Prune de Valdoule 3 variétés disponible",
+        "hint":"Disponibilité août à septembre"
+    },
+    {
+        "title":"Noix",
+        "image":"/src/assets/walnut.png",
+        "description":"Noix de Valdoule AOP",
+        "hint":"Disponibilité toute l'année"
+    },
+    {
+        "title":"Essence de lavande",
+        "image":"/src/assets/1.jpg",
+        "description":"Essence de lavande de Valdoule",
+        "hint":"Disponibilité toute l'année"
+    },
+    {
+        "title":"Viande bovine",
+        "image":"/src/assets/1.jpg",
+        "description":"Viande bovine charolaise",
+        "hint":"Disponibilité toute l'année"
+    }
+]

@@ -54,6 +54,6 @@
     transform: scaleX(1.0001);
 }
 
-/* .each-slide-effect >div {
-    background-size: cover;
-} */
+.card {
+    background-color: rgba(0, 255, 255, 0.5);
+}
