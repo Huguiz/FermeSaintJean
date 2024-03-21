@@ -1,0 +1,59 @@
+.underline-animation {
+    display: inline-block;
+    position: relative;
+    transition: text-shadow .3s;
+}
+
+.underline-animation:hover {
+    text-shadow: 0 0 .75px #333, 0 0 .75px #333;
+}
+
+.underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.20s ease-out;
+}
+
+.underline-animation:hover::after {
+    transform: scaleX(1.0001);
+    transform-origin: bottom left;
+}
+
+.nav_gradient {
+    background: linear-gradient(333deg, rgba(164, 224, 149, 1) 0%, rgba(125, 172, 114, 1) 100%);
+}
+
+.shade {
+    height: 20%;
+}
+
+.shade.open {
+    background: linear-gradient(to top, rgb(241 245 249) 0%, rgba(241, 245, 249, 0.96) 2%, rgba(255, 255, 255, 0) 100%);
+}
+
+.shade.close {
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(241, 245, 249, 0.96) 98%, rgb(241 245 249) 100%);
+}
+
+.title {
+    font-family: 'Tabitha';
+}
+
+.active {
+    text-shadow: 0 0 .75px #333, 0 0 .75px #333;
+}
+
+.active::after {
+    transform: scaleX(1.0001);
+}
+
+/* .each-slide-effect >div {
+    background-size: cover;
+} */
